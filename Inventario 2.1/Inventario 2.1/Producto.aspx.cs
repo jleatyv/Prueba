@@ -39,9 +39,10 @@ namespace Inventario_2._1
         {
             if (e.Item is GridDataItem)
             {
+                RadButton radButton = (RadButton)e.Item.FindControl("Exportar");
                 if (!e.Item.IsInEditMode)
                 {
-
+                    radButton.Visible = true;
                     if (e.Item.DataItem as INVCategoria != null)
                     {
                         var dataItem = (INVCategoria)e.Item.DataItem;
@@ -66,6 +67,8 @@ namespace Inventario_2._1
                 {
 
                     e.Item.BackColor = Color.White;
+                    
+                    radButton.Visible = false;
 
                 }
             }

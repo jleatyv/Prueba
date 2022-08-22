@@ -1,19 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Categoria>
-  <CategoriaID>1017</CategoriaID>
-  <Nombre>PruebaFinal</Nombre>
-  <Descripcion>Prueba</Descripcion>
+  <CategoriaID>1</CategoriaID>
+  <Nombre>A1</Nombre>
+  <Descripcion>sf</Descripcion>
   <Estado>1</Estado>
-  <Productos>
-    <Producto>
-      <Codigo>020011</Codigo>
-      <Nombre>PruebaFinal</Nombre>
-      <Abreviatura>PF</Abreviatura>
-      <UM>2</UM>
-      <Costo>2.00000</Costo>
-      <Precio>0.00000</Precio>
-      <EsInventariado>true</EsInventariado>
-      <EsParaVenta>true</EsParaVenta>
-    </Producto>
-  </Productos>
+  <Productos />
 </Categoria>
