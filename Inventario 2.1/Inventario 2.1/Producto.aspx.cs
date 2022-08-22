@@ -42,9 +42,10 @@ namespace Inventario_2._1
                 RadButton radButton = (RadButton)e.Item.FindControl("Exportar");
                 if (!e.Item.IsInEditMode)
                 {
-                    radButton.Visible = true;
+                    
                     if (e.Item.DataItem as INVCategoria != null)
                     {
+                        radButton.Visible = true;
                         var dataItem = (INVCategoria)e.Item.DataItem;
                         if (dataItem.Estado != 1)
                         {

@@ -41,7 +41,7 @@
 
         </telerik:RadCodeBlock>
 
-        <telerik:RadMenu runat="server" ShowToggleHandle="True" ID="RadMenu1"  >
+        <telerik:RadMenu runat="server" ShowToggleHandle="True" ID="RadMenu1">
             <Items>
                 <telerik:RadMenuItem runat="server" Text="Inicio" NavigateUrl="Default.aspx">
                 </telerik:RadMenuItem>
