@@ -121,43 +121,43 @@
     <value />
   </data>
   <data name="AddNewRecordText" xml:space="preserve">
-    <value>Insertar</value>
+    <value>Añadir nuevo registro</value>
   </data>
   <data name="Caption" xml:space="preserve">
-    <value />
+    <value>Título</value>
   </data>
   <data name="CollapseTooltip" xml:space="preserve">
-    <value>Colapsar Grupo</value>
+    <value>Colapsar grupo</value>
   </data>
   <data name="ColumnResizeTooltipFormatString" xml:space="preserve">
-    <value>Width: &lt;strong&gt;{0}&lt;/strong&gt; &lt;em&gt;pixels&lt;/em&gt;</value>
+    <value>Ancho: &lt;strong&gt;{0}&lt;/strong&gt; &lt;em&gt;pixels&lt;/em&gt;</value>
   </data>
   <data name="DragToGroupOrReorder" xml:space="preserve">
-    <value>Drag to group or reorder</value>
+    <value>Arrastre para agrupar o reordenar</value>
   </data>
   <data name="DragToResize" xml:space="preserve">
-    <value>Drag to resize</value>
+    <value>Arrastre para cambiar el tamaño</value>
   </data>
   <data name="DropHereToReorder" xml:space="preserve">
-    <value>Drop here to reorder</value>
+    <value>Coloque aquí para reordenar</value>
   </data>
   <data name="ExpandTooltip" xml:space="preserve">
-    <value>Expandir Grupo</value>
+    <value>Expandir el grupo</value>
   </data>
   <data name="ExportToCsvImageUrl" xml:space="preserve">
     <value />
   </data>
   <data name="ExportToCsvText" xml:space="preserve">
-    <value>Export to CSV</value>
+    <value>Exportar a CSV</value>
   </data>
   <data name="ExportToExcelImageUrl" xml:space="preserve">
     <value />
   </data>
   <data name="ExportToExcelText" xml:space="preserve">
-    <value>Export to Excel</value>
+    <value>Exportar a Excel</value>
   </data>
   <data name="ExportToPdfText" xml:space="preserve">
-    <value>Export to Pdf</value>
+    <value>Exportar a Pdf</value>
   </data>
   <data name="ExportToPdfImageUrl" xml:space="preserve">
     <value />
@@ -166,7 +166,7 @@
     <value />
   </data>
   <data name="ExportToWordText" xml:space="preserve">
-    <value>Export to Word</value>
+    <value>Exportar a Word</value>
   </data>
   <data name="FilterExpression" xml:space="preserve">
     <value />
@@ -181,16 +181,16 @@
     <value>; </value>
   </data>
   <data name="GroupContinuedFormatString" xml:space="preserve">
-    <value>... group continued from the previous page. </value>
+    <value>... el grupo viene de la página anterior.</value>
   </data>
   <data name="GroupContinuesFormatString" xml:space="preserve">
-    <value> Group continues on the next page.</value>
+    <value>El grupo continua en la siguiente página.</value>
   </data>
   <data name="GroupPanelText" xml:space="preserve">
-    <value>Drag a column header and drop it here to group by that column</value>
+    <value>Arrastre una columna aquí para agrupar por dicha columna</value>
   </data>
   <data name="GroupSplitDisplayFormat" xml:space="preserve">
-    <value>Showing {0} of {1} items.</value>
+    <value>Mostrando {0} de {1} elementos.</value>
   </data>
   <data name="GroupSplitFormat" xml:space="preserve">
     <value> ({0})</value>
@@ -202,55 +202,55 @@
     <value>Expandir</value>
   </data>
   <data name="HierarchySelfCollapseTooltip" xml:space="preserve">
-    <value>Self reference collapse</value>
+    <value>Colapsar autorreferenciado</value>
   </data>
   <data name="HierarchySelfExpandTooltip" xml:space="preserve">
-    <value>Self reference expand</value>
+    <value>Expandir autorreferenciado</value>
   </data>
   <data name="LastPageText" xml:space="preserve">
     <value />
   </data>
   <data name="LastPageToolTip" xml:space="preserve">
-    <value>Ultima página</value>
+    <value>Última página</value>
   </data>
   <data name="LoadingText" xml:space="preserve">
-    <value>Cargando</value>
+    <value>Cargando...</value>
   </data>
   <data name="NextPagesToolTip" xml:space="preserve">
-    <value>Próxima Página</value>
+    <value>Siguientes Páginas</value>
   </data>
   <data name="NextPageText" xml:space="preserve">
     <value />
   </data>
   <data name="NextPageToolTip" xml:space="preserve">
-    <value>Próxima Página</value>
+    <value>Siguiente Página</value>
   </data>
   <data name="NoDetailRecordsText" xml:space="preserve">
-    <value>No hay hijos que mostrar</value>
+    <value>No hay registros secundarios para mostrar.</value>
   </data>
   <data name="NoMasterRecordsText" xml:space="preserve">
-    <value>No hay records que mostrar</value>
+    <value>No hay registros para mostrar.</value>
   </data>
   <data name="PagerTextFormat" xml:space="preserve">
-    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+    <value>Cambia la página: {4} &amp;nbsp;Página &lt;strong&gt;{0}&lt;/strong&gt; de &lt;strong&gt;{1}&lt;/strong&gt;, elementos &lt;strong&gt;{2}&lt;/strong&gt; a &lt;strong&gt;{3}&lt;/strong&gt; de &lt;strong&gt;{5}&lt;/strong&gt;.</value>
   </data>
   <data name="PagerTooltipFormatString" xml:space="preserve">
-    <value>Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;</value>
+    <value>Página &lt;strong&gt;{0}&lt;/strong&gt; de &lt;strong&gt;{1}&lt;/strong&gt;</value>
   </data>
   <data name="PageSizeLabelText" xml:space="preserve">
-    <value>Page size:</value>
+    <value>Tamaño de la página:</value>
   </data>
   <data name="PrevPagesToolTip" xml:space="preserve">
-    <value>Previous Pages</value>
+    <value>Páginas anteriores</value>
   </data>
   <data name="PrevPageText" xml:space="preserve">
     <value />
   </data>
   <data name="PrevPageToolTip" xml:space="preserve">
-    <value>Previous Page</value>
+    <value>Página anterior</value>
   </data>
   <data name="Refresh" xml:space="preserve">
-    <value>Refrescar</value>
+    <value>Actualizar</value>
   </data>
   <data name="RefreshImageUrl" xml:space="preserve">
     <value />
@@ -259,13 +259,13 @@
     <value>Please do not remove this key.</value>
   </data>
   <data name="SortedAscToolTip" xml:space="preserve">
-    <value>Sorted asc</value>
+    <value>Ordenado ascendente</value>
   </data>
   <data name="SortedDescToolTip" xml:space="preserve">
-    <value>Sorted desc</value>
+    <value>Ordenado descendente</value>
   </data>
   <data name="SortToolTip" xml:space="preserve">
-    <value>Click here to sort</value>
+    <value>Haga clic aquí para ordenar</value>
   </data>
   <data name="StatusReadyText" xml:space="preserve">
     <value>Listo</value>
@@ -274,10 +274,10 @@
     <value />
   </data>
   <data name="UnGroupButtonTooltip" xml:space="preserve">
-    <value>Click aqui para desagrupar</value>
+    <value>Haga clic aquí para desagrupar</value>
   </data>
   <data name="UnGroupTooltip" xml:space="preserve">
-    <value>Drag out of the bar to ungroup</value>
+    <value>Arrastre fuera de la barra para desagrupar</value>
   </data>
   <data name="BetweenText" xml:space="preserve">
     <value>Entre</value>
@@ -289,43 +289,43 @@
     <value>Personalizado</value>
   </data>
   <data name="DoesNotContainText" xml:space="preserve">
-    <value>No contiene</value>
+    <value>No Contiene</value>
   </data>
   <data name="EndsWithText" xml:space="preserve">
-    <value>Termina con</value>
+    <value>Finaliza con</value>
   </data>
   <data name="EqualToText" xml:space="preserve">
-    <value>Igual a </value>
+    <value>Igual a</value>
   </data>
   <data name="GreaterThanOrEqualToText" xml:space="preserve">
-    <value>Mayor o igual que</value>
+    <value>Es mayor o igual a</value>
   </data>
   <data name="GreaterThanText" xml:space="preserve">
-    <value>Mayor que</value>
+    <value>Es mayor a</value>
   </data>
   <data name="IsEmptyText" xml:space="preserve">
-    <value>Es Vacio</value>
+    <value>Esta vacio</value>
   </data>
   <data name="IsNullText" xml:space="preserve">
-    <value>Es Nulo</value>
+    <value>Es nulo</value>
   </data>
   <data name="LessThanOrEqualToText" xml:space="preserve">
-    <value>Menor o igual que</value>
+    <value>Es menor o igual a</value>
   </data>
   <data name="LessThanText" xml:space="preserve">
-    <value>Menor que</value>
+    <value>Es menor que</value>
   </data>
   <data name="NoFilterText" xml:space="preserve">
-    <value>No filtro</value>
+    <value>Sin Filtro</value>
   </data>
   <data name="NotBetweenText" xml:space="preserve">
-    <value>No esta entre</value>
+    <value>No Entre</value>
   </data>
   <data name="NotEqualToText" xml:space="preserve">
-    <value>No es igual que</value>
+    <value>No es igual a</value>
   </data>
   <data name="NotIsEmptyText" xml:space="preserve">
-    <value>No es vacio</value>
+    <value>No esta vacio</value>
   </data>
   <data name="NotIsNullText" xml:space="preserve">
     <value>No es nulo</value>
@@ -334,10 +334,10 @@
     <value>Comienza con</value>
   </data>
   <data name="ChangePageSizeLabelText" xml:space="preserve">
-    <value>Page size:</value>
+    <value>Tamaño de la página:</value>
   </data>
   <data name="ChangePageSizeLinkButtonText" xml:space="preserve">
-    <value>Cambio</value>
+    <value>Cambiar</value>
   </data>
   <data name="GoToPageLabelText" xml:space="preserve">
     <value>Página:</value>
@@ -346,42 +346,93 @@
     <value>Ir</value>
   </data>
   <data name="HeaderContextMenuAndLabel" xml:space="preserve">
-    <value>And</value>
+    <value>Y</value>
   </data>
   <data name="HeaderContextMenuClearButton" xml:space="preserve">
-    <value>Limpiar Filtro</value>
+    <value>Limpiar filtro</value>
   </data>
   <data name="HeaderContextMenuColumns" xml:space="preserve">
     <value>Columnas</value>
   </data>
   <data name="HeaderContextMenuFilterButton" xml:space="preserve">
-    <value>Filtro</value>
+    <value>Filtrar</value>
   </data>
   <data name="HeaderContextMenuFilterItemText" xml:space="preserve">
-    <value>Filtro</value>
+    <value>Filtrar</value>
   </data>
   <data name="HeaderContextMenuGroupBy" xml:space="preserve">
-    <value>Agrupar por</value>
+    <value>Agrupado por</value>
   </data>
   <data name="HeaderContextMenuRowsLabel" xml:space="preserve">
-    <value>Show rows with value that</value>
+    <value>Mostrar filas con el valor que</value>
   </data>
   <data name="HeaderContextMenuSortAsc" xml:space="preserve">
-    <value>Sort Ascending</value>
+    <value>Orden ascendente</value>
   </data>
   <data name="HeaderContextMenuSortClear" xml:space="preserve">
-    <value>Clear Sorting</value>
+    <value>Limpiar Clasificación</value>
   </data>
   <data name="HeaderContextMenuSortDesc" xml:space="preserve">
-    <value>Sort Descending</value>
+    <value>Orden descendente</value>
   </data>
   <data name="HeaderContextMenuUnGroupBy" xml:space="preserve">
-    <value>Ungroup</value>
+    <value>Desagrupar</value>
   </data>
   <data name="PageOfLabelText" xml:space="preserve">
-    <value>of {0}</value>
+    <value>de {0}</value>
   </data>
   <data name="FilterImageToolTip" xml:space="preserve">
-    <value>Filtro</value>
+    <value>Filtrar</value>
+  </data>
+  <data name="CloseText" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="HeaderContextMenuBestFitText" xml:space="preserve">
+    <value>Ajuste perfecto</value>
+  </data>
+  <data name="HeaderContextMenuAggregates" xml:space="preserve">
+    <value>Agregados</value>
+  </data>
+  <data name="HeaderContextMenuAvgAggregateText" xml:space="preserve">
+    <value>Prom</value>
+  </data>
+  <data name="HeaderContextMenuCountAggregateText" xml:space="preserve">
+    <value>Contar</value>
+  </data>
+  <data name="HeaderContextMenuCountDistinctAggregateText" xml:space="preserve">
+    <value>CountDistinct</value>
+  </data>
+  <data name="HeaderContextMenuCustomAggregateText" xml:space="preserve">
+    <value>Personalizar</value>
+  </data>
+  <data name="HeaderContextMenuFirstAggregateText" xml:space="preserve">
+    <value>Primero</value>
+  </data>
+  <data name="HeaderContextMenuLastAggregateText" xml:space="preserve">
+    <value>Ultimo</value>
+  </data>
+  <data name="HeaderContextMenuMaxAggregateText" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="HeaderContextMenuMinAggregateText" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="HeaderContextMenuNoneAggregateText" xml:space="preserve">
+    <value>Ninguno</value>
+  </data>
+  <data name="HeaderContextMenuSumAggregateText" xml:space="preserve">
+    <value>Sum</value>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="EditText" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="InsertText" xml:space="preserve">
+    <value>Insertar</value>
+  </data>
+  <data name="UpdateText" xml:space="preserve">
+    <value>Actualizar</value>
   </data>
 </root>
