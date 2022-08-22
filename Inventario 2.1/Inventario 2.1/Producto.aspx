@@ -65,8 +65,8 @@
     <telerik:RadGrid ID="RadGrid1" runat="server" AllowAutomaticDeletes="True" AllowAutomaticInserts="True" AllowAutomaticUpdates="True" AllowFilteringByColumn="True" 
         AllowSorting="True" Culture="es-ES" DataSourceID="LinqDataSource1" OnInsertCommand="RadGrid1_InsertCommand" OnUpdateCommand="RadGrid1_UpdateCommand" 
         OnItemDataBound="RadGrid1_ItemDataBound" OnItemInserted="RadGrid1_ItemInserted" OnItemUpdated="RadGrid1_ItemUpdated" OnItemDeleted="RadGrid1_ItemDeleted" AllowPaging="True">
-<GroupingSettings CollapseAllTooltip="Collapse all groups"></GroupingSettings>
-
+        <GroupingSettings CollapseAllTooltip="Collapse all groups"></GroupingSettings>
+        <FilterMenu style="z-index: 10000;"></FilterMenu>
         <HierarchySettings CollapseTooltip="Colapsar" ExpandTooltip="Expandir" />
 
 <MasterTableView AllowSorting="False" AutoGenerateColumns="False" CommandItemDisplay="Top" DataKeyNames="CategoriaID" DataSourceID="LinqDataSource1" Name="Categoria" EditMode="InPlace" NoDetailRecordsText="No hay productos en esta categoria" NoMasterRecordsText="No hay datos">
