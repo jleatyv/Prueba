@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Inventario">
+  <DataContextMoniker Name="/InventarioDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7d63acf4-b301-4162-b99e-062a05138b75" absoluteBounds="1.125, 0.75, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/InventarioDataContext/INVProducto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f353b72b-9e72-410f-a6dd-2b05e1d7573e" absoluteBounds="1.1400000000000001, 1.21, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="50bd85eb-4f80-4e0d-8a94-eb6b90f6ac53" absoluteBounds="5.25, 1, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/InventarioDataContext/INVCategoria" />
+      <nestedChildShapes>
+        <elementListCompartment Id="19418401-728a-46cb-be00-0a6a715b8c12" absoluteBounds="5.265, 1.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.25 : 2.07774983723958); (3.125 : 2.07774983723958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/InventarioDataContext/INVCategoria/INVCategoria_INVProducto" />
+      <nodes>
+        <classShapeMoniker Id="50bd85eb-4f80-4e0d-8a94-eb6b90f6ac53" />
+        <classShapeMoniker Id="7d63acf4-b301-4162-b99e-062a05138b75" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3247b5cc-a24b-485e-97d5-b22212775988" absoluteBounds="5.375, 3.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/InventarioDataContext/INVUM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ecbc39b3-397e-4fb1-90f9-193df3a5f0fe" absoluteBounds="5.39, 3.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.375 : 3.87580485026042); (3.125 : 3.87580485026042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/InventarioDataContext/INVUM/INVUM_INVProducto" />
+      <nodes>
+        <classShapeMoniker Id="3247b5cc-a24b-485e-97d5-b22212775988" />
+        <classShapeMoniker Id="7d63acf4-b301-4162-b99e-062a05138b75" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

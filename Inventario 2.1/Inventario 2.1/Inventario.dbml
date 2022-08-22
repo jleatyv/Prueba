@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Inventario" Class="InventarioDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.;Initial Catalog=Inventario;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="InventarioConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.INVProducto" Member="INVProducto">
+    <Type Name="INVProducto">
+      <Column Name="ProductoId" Member="ProductoID" Storage="_ProductoId" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Codigo" Type="System.String" DbType="NVarChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Abreviatura" Type="System.String" DbType="NVarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="CategoriaID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UMID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Costo" Type="System.Decimal" DbType="Decimal(15,5) NOT NULL" CanBeNull="false" />
+      <Column Name="Precio" Type="System.Decimal" DbType="Decimal(15,5) NOT NULL" CanBeNull="false" />
+      <Column Name="EsInventariado" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="EsParaVenta" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Imagen" Type="System.Byte[]" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Estado" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="FechaCreacion" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="FechaModificacion" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="INVCategoria_INVProducto" Member="INVCategoria" ThisKey="CategoriaID" OtherKey="CategoriaID" Type="INVCategoria" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="INVUM_INVProducto" Member="INVUM" ThisKey="UMID" OtherKey="UMID" Type="INVUM" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.INVCategoria" Member="INVCategoria">
+    <Type Name="INVCategoria">
+      <Column Name="CategoriaID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Descripcion" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Imagen" Type="System.Byte[]" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Estado" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="FechaCreacion" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="FechaModificacion" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="INVCategoria_INVProducto" Member="INVProducto" ThisKey="CategoriaID" OtherKey="CategoriaID" Type="INVProducto" />
+    </Type>
+  </Table>
+  <Table Name="dbo.INVUM" Member="INVUM">
+    <Type Name="INVUM">
+      <Column Name="UMID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Abrev" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Estado" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="FechaCreacion" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="FechaModificacion" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="INVUM_INVProducto" Member="INVProducto" ThisKey="UMID" OtherKey="UMID" Type="INVProducto" />
+    </Type>
+  </Table>
+</Database>
