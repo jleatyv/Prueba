@@ -165,9 +165,15 @@ namespace Inventario_2._1
         {
             INVCategoria invCat = (INVCategoria)e.NewObject;
             invCat.FechaModificacion = DateTime.Now;
-            if (invCat.Estado == 3)
+           
+
+        }
+        protected void LinqDataSource1_Updated(object sender, LinqDataSourceStatusEventArgs e)
+        {
+            INVCategoria cat = e.Result as INVCategoria;
+            if (cat.Estado == 3)
             {
-                CambiarEstado(invCat.CategoriaID);
+                CambiarEstado(cat.CategoriaID);
             }
 
         }
@@ -323,6 +329,6 @@ namespace Inventario_2._1
             }
         }
 
-
+        
     }
 }

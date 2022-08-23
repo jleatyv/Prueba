@@ -221,7 +221,7 @@
     <telerik:RadNotification ID="RN1" runat="server" Position ="Center" >
     </telerik:RadNotification>
 
-    <asp:LinqDataSource ID="LinqDataSource1" runat="server" ContextTypeName="Inventario_2._1.InventarioDataContext" EnableDelete="True" EnableInsert="True" EnableUpdate="True" EntityTypeName="" TableName="INVCategoria" OnInserting="LinqDataSource1_Inserting" OnUpdating="LinqDataSource1_Updating">
+    <asp:LinqDataSource ID="LinqDataSource1" runat="server" ContextTypeName="Inventario_2._1.InventarioDataContext" EnableDelete="True" EnableInsert="True" EnableUpdate="True" EntityTypeName="" TableName="INVCategoria" OnInserting="LinqDataSource1_Inserting" OnUpdating="LinqDataSource1_Updating" OnUpdated="LinqDataSource1_Updated">
     </asp:LinqDataSource>
     <asp:LinqDataSource ID="LinqDataSource2" runat="server" ContextTypeName="Inventario_2._1.InventarioDataContext" EnableDelete="True" EnableInsert="True" EnableUpdate="True" EntityTypeName="" TableName="INVProducto" Where="CategoriaID == @CategoriaID" OnInserting="LinqDataSource2_Inserting" OnUpdating="LinqDataSource2_Updating">
         <WhereParameters>
